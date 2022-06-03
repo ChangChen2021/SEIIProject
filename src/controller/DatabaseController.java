@@ -17,7 +17,7 @@ public class DatabaseController {
 	
 	public DatabaseController() throws Exception {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cookbook?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC", "root", "kxf561");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cookbook?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC", "root", "12345");
 	}
 	
 	public List<Recipe> searchRecipe(String string) throws Exception {
